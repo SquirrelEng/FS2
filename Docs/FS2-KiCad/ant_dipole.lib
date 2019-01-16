@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ANT_Dipole
+#
+DEF ANT_Dipole ANT 0 40 Y Y 1 F N
+F0 "ANT" 0 300 60 H V C CNN
+F1 "ANT_Dipole" 50 400 60 H V C CNN
+F2 "" 100 0 60 H I C CNN
+F3 "" 100 0 60 H I C CNN
+DRAW
+P 2 0 1 0 -50 200 -700 200 N
+P 2 0 1 0 50 200 850 200 N
+X ~ ~ -50 0 200 U 50 50 1 1 I
+X ~ ~ 50 0 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
